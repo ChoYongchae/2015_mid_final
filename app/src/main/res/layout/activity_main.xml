@@ -15,7 +15,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="메1인"
+            android:text="메인"
             android:id="@+id/button_main"
             android:layout_weight="1"
             android:background="#888888"
@@ -181,49 +181,10 @@
         android:layout_below="@+id/linearLayout2"
         android:background="#cccccc">
 
-        <Button
-            android:layout_width="fill_parent"
+        <ListView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="1번글입니다"
-            android:id="@+id/button1"
-            android:gravity="left|center_vertical"
-            android:paddingLeft="20dp"/>
-        <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="2번글입니다"
-            android:id="@+id/button2"
-            android:gravity="left|center_vertical"
-            android:paddingLeft="20dp"/>
-        <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="3번글입니다"
-            android:id="@+id/button3"
-            android:gravity="left|center_vertical"
-            android:paddingLeft="20dp"/>
-        <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="4번글입니다"
-            android:id="@+id/button4"
-            android:gravity="left|center_vertical"
-            android:paddingLeft="20dp"/>
-        <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="5번글입니다"
-            android:id="@+id/button5"
-            android:gravity="left|center_vertical"
-            android:paddingLeft="20dp"/>
-        <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="6번글입니다"
-            android:id="@+id/button6"
-            android:gravity="left|center_vertical"
-            android:paddingLeft="20dp"/>
-
+            android:id="@+id/boardListView" />
     </LinearLayout>
 
 </RelativeLayout>
